@@ -159,3 +159,142 @@
     font-weight: bold;
     font-size: 52px;
 }
+
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    
+}
+
+.leftcontainer {
+    padding: 100px 100px;
+    width: 50%;
+}
+
+.lsubheading {
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.leftvline {
+    border-left: 2px solid crimson;
+    height: 20px;
+}
+
+.lmainheading {
+    padding: 20px 0px;
+    word-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.lpara {
+    padding: 30px 0px;
+    line-height: 25px;
+    width: 130%;
+}
+
+.lphone {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.phonetext {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.lemail {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.emailtext {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.rightcontainer {
+    padding: 100px 100px;
+    width: 70%;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.name, .email, .subject, .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formgroup label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 15px; 
+}
+
+.formgroup input,textarea {
+    width: 100%;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.formgroup input::placeholder {
+    width: 100%;
+    color: #666666;
+}
+
+.formgroup button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.formgroup button:hover {
+    color: orangered;
+    transition: color 0.3s ease;
+}
+
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+.map iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0px 100px 100px 100px;
+}
