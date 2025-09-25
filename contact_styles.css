@@ -1,0 +1,127 @@
+.fa-envelope {
+    color: orangered;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.fa-map {
+    color: orangered;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.topbartext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.info {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #7a7a7a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vline {
+    border: 1px solid #e5e5e5;
+    height: 20px;
+}
+
+.socialicons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialicons a{
+    padding: 8px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.socialicons a:hover {
+    background-color: orangered;
+}
+
+.line {
+    border: 0.5px solid #e5e5e5;
+    width: 100%;
+  
+}
+
+.nbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 50;
+}
+
+.logo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nlinks{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nlinks a,span{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-family: system-ui, sans-serif;
+    transition: color 0.3s ease;
+}
+
+.nlinks a.active{
+    color: orangered;
+}
+
+.nlinks a:hover {
+  color: orangered;
+}
+
+.fa-calendar {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 200px;
+    color: white;
+}
+
+.schedule {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.schedule i{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.schedule:hover {
+    color: orangered;
+}
