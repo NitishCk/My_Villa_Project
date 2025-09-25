@@ -125,3 +125,40 @@
 .schedule:hover {
     color: orangered;
 }
+
+.imagecontainer {
+    position: relative;
+    display: inline-block;
+}
+
+.imagecontainer img {
+    width: 100%;
+    display: block;
+}
+
+.imagecontainer .imagesubtext {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    border-radius: 10px;
+}
+
+.imagecontainer .imagesubtext span{
+    color: orangered;
+}
+
+.imagecontainer .imagetext {
+    position: absolute;
+    top: 58%;
+    left: 37%;
+    transform: translate(-50%, -65%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+}
