@@ -606,3 +606,128 @@
     color: orangered;
     transition: color 0.3s ease;
 }
+
+.contactcontainer {
+    position: relative;
+}
+
+.contactcontainer .contact-bg {
+    position: relative;
+}
+
+.contactcontainer .contact-bg img{
+    max-width: 100%;
+}
+
+.contactmaincontainerheading {
+    position: absolute;
+    z-index: 10;
+    bottom: 80%;
+    left: 30%;
+}
+
+.contactcontainer {
+    position: relative;
+}
+
+.contactparentcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: -250px 100px;
+    top: 40%;
+
+}
+
+.contactcontent {
+    display: flex;
+    margin: 40px 0px;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.lphone {
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    width: 75%;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.phonetext {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.lemail {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    width: 75%;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.emailtext {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.contactrightcontainer {
+    width: 40%;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 38px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.name, .email, .subject, .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formgroup label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 15px; 
+}
+
+.formgroup input,textarea {
+    width: 100%;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.formgroup input::placeholder {
+    width: 100%;
+    color: #666666;
+}
+
+.formgroup button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.formgroup button:hover {
+    color: orangered;
+    transition: color 0.3s ease;
+}
