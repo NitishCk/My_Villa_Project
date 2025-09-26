@@ -248,3 +248,88 @@
 .r2rightcontainer .rcontenttext span {
     color: #afadad;
 }
+
+.videocontainer {
+    position: relative;
+}
+
+.videocontainer .video-bg {
+    position: relative;
+}
+
+.videocontainer .video-bg img{
+    max-width: 100%;
+}
+
+.videocontainer .video {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.videocontainer .video img{
+    border-radius: 10px;
+    margin: 100px 0px;
+}
+
+.videocontainer .video span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videocontainer .video span i{
+    background-color: rgba(255, 68, 0, 0.59);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videobottomcontainer{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.videobottomcontainer .content {
+    width: 500px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #FEE9E3;
+    padding: 2px 30px;
+    border-radius: 10px;
+}
+
+.videobottomcontainer .content p {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orangered;
+    padding-top: 10px;
+}
+
+.videobottomcontainer .content .circle {
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70px;
+    left: 230px;
+}
