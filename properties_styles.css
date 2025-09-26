@@ -132,6 +132,19 @@
 }
 
 
+/* Burger Icon and Close For Mobile Devices */
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: black;
+}
+
+.close-menu {
+    display: none;
+}
+
+
 /* Hero Section */
 .imagecontainer {
     position: relative;
@@ -347,4 +360,168 @@
     color: orangered;
     transition: color 0.3s ease;
     cursor: pointer;
+}
+
+/* Responsive Web Design */
+
+/* General Tablet Style Devices (≤ 1050px) */
+
+@media (max-width: 1050px) {
+
+    .topbartext {
+        padding: 10px 40px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .nbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px 40px;
+    }
+
+    .nlinks {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .propertiesbutton {
+        margin: 30px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .maincontainer {
+        margin: 50px 40px;
+        justify-content: center;
+    }
+
+    .maincontainer .card {
+        flex: 1 1 calc(50% - 30px);
+        max-width: 400px;
+    }
+
+}
+
+
+/* General Mobile Style Devices (≤ 576px) */
+
+@media (max-width: 576px) {
+
+    .topbartext {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nbar {
+        padding: 15px 20px;
+    }
+
+    .nlinks {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .imagecontainer img {
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .imagecontainer .imagetext {
+        font-size: 32px;
+    }
+
+    .propertiesbutton {
+        margin: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .maincontainer {
+        margin: 30px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .maincontainer .card {
+        width: 100%;
+    }
+
+    .maincontainer .card .subheading span {
+        font-size: 14px;
+    }
+
+    .maincontainer .pageno {
+        gap: 15px;
+    }
+
+    .maincontainer .pageno button {
+        width: 35px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .copyright {
+        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .nlinks {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        padding: 15px 0;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        z-index: 100;
+        transition: left 0.4s ease; 
+        opacity: 0; 
+        transition: left 0.4s ease, opacity 0.4s ease;
+    }
+
+    .nlinks.active {
+        left: 0; 
+        opacity: 1; 
+    }
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 200;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    .nlinks.active .close-menu {
+        opacity: 1;
+    }
+
+    .burger {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 200;
+        transition: opacity 0.4s ease;
+    }
+
+    .nlinks.active ~ .burger {
+        opacity: 0; 
+    }
 }
