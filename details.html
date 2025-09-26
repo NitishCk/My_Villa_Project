@@ -41,12 +41,18 @@
 
         <!-- Navbar links -->
         <nav class="nlinks">
+            <div class="close-menu"><i class="fas fa-times"></i></div>
             <a href="./index.html">Home</a>
             <a href="./properties.html">Properties</a>
             <a href="./details.html" class="active">Property Details</a>
             <a href="./contact.html">Contact Us</a>
             <span class="schedule"><i class="fa-solid fa-calendar"></i>Schedule a Visit</span>
         </nav>
+
+        <!-- Burger icon for mobile -->
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
 
     <!-- Hero Section -->
@@ -240,5 +246,22 @@
     <footer class="copyright">
         <div>Copyright © 2025 Villa Agency Co., Ltd. All rights reserved. Design : <strong>Nitish ChittoorKrishnamurthy</strong></div>
     </footer>
+
+    <!-- JavaScript to enable the close and open functionality for the navigation bar in mobile devices -->
+    <script>
+        const burger = document.querySelector('.burger');
+        const nlinks = document.querySelector('.nlinks');
+        const closeBtn = document.querySelector('.close-menu');
+
+        // Open menu
+        burger.addEventListener('click', () => {
+        nlinks.classList.add('active');
+        });
+
+        // Close menu
+        closeBtn.addEventListener('click', () => {
+        nlinks.classList.remove('active');
+        });
+    </script>
 </body>
 </html>
