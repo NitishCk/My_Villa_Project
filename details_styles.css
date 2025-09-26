@@ -478,7 +478,6 @@
 
 /* General Mobile Style Devices (≤ 576px) */
 
-/* Mobiles (≤576px) */
 @media (max-width: 576px) {
 
     .topbartext {
@@ -618,6 +617,6 @@
     .nlinks.active ~ .burger {
         opacity: 0; 
     }
-    
+
 }
 
