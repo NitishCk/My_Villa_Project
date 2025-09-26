@@ -132,6 +132,17 @@
     color: orangered;
 }
 
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: black;
+}
+
+.close-menu {
+    display: none;
+}
+
 
 /* Hero Section */
 .imagecontainer {
