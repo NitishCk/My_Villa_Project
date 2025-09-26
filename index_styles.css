@@ -333,3 +333,133 @@
     bottom: 70px;
     left: 230px;
 }
+
+.bottomcontainer {
+    background-color: #f9f9f9;
+}
+
+.centerrow1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px 100px;
+    padding-top: 100px;
+}
+
+.leftsubheading {
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.leftvline {
+    border-left: 2px solid crimson;
+    height: 20px;
+}
+
+.leftmainheading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.r1rightcontainer .propertiesbutton button{
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.propertiesbutton button.active {
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+.propertiesbutton button:hover {
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+.centerrow2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.centerrow2 .r2leftcontainer {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 20px 40px;
+    width: 30%;
+    height: 10%;
+}
+
+.centerrow2 .r2leftcontainer .r2content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 20px 0px;
+}
+
+.centerrow2 .r2leftcontainer .r2content p {
+    font-weight: bolder;
+}
+
+.centerrow2 .r2centercontainer{
+    width: 60%;
+}
+
+.centerrow2 .r2centercontainer img {
+    width: 100%;
+}
+
+.centerrow2 .rrightcontainer {
+    width: 25%;
+}
+
+.centerrow2 .rrightcontainer .r2her2contentading span {
+    font-weight: bolder;
+}
+
+.centerrow2 .rrightcontainer .r2content p {
+    margin-top: 30px;
+    font-size: small;
+    
+}
+
+.r2schedule {
+    width: 80%;
+}
+
+.schedulecontent {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.schedulecontent i{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.schedulecontent:hover {
+    color: orangered;
+}
